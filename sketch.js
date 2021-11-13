@@ -120,7 +120,7 @@ function draw() {
   fill("#FFFF");
   textAlign("center");
   textSize(30);
-  text("Score : " + score, 1350,100);
+  text("Score : " + score, 900,100);
 
   if (numberOfArrows == 0) {
     console.log("arrow bucket is empty")
